@@ -2,6 +2,7 @@ name: default
 on: push
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Export Dependabot alerts
         uses: ambilykk/dependabot-alert-export@v1.0
